@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html dir="ltr" class="uk-height-1-1">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+  <link rel="shortcut icon" href="images/1634866642.png">
+  <title>AjkerLink | Deals &amp; Discounts | Offers</title>
+  <meta name="description" content="Welcome to AjkerLink">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+
+</head>
+
+<body class="uk-height-1-1">
+
+  <div id="preloader">
+    <div class="spinner">
+      <div class="uil-ripple-css" style="transform:scale(0.40);">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- SIDEMENU -->
+
+  <div class="tas-sidemenu" id="sidemenu" uk-offcanvas="overlay: true;">
+
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+      <div class="uk-width-1-1 uk-flex uk-flex-middle uk-flex-center">
+        <a href="index.html">
+          <img class="uk-logo" src="images/logo.png" alt="AjkerLink| Deals & Discounts">
+        </a>
+      </div>
+
+      <hr>
+
+      <a href="signin.html" class="tas-signin uk-button uk-button-primary uk-border-rounded">
+        Sign In </a>
+
+
+
+
+      <hr>
+
+      <ul class="tas-main-menu uk-nav-default uk-margin-small-bottom" uk-nav>
+        <li><a href="index.html" target="_self">Home</a></li>
+        <li><a href="search.html" target="_self">Search</a></li>
+      </ul>
+
+      <div class="uk-width-1-1 uk-flex uk-flex-center">
+        <ul class="tas-followus uk-iconnav uk-margin-small-top uk-margin-small-bottom">
+          <li><a href="https://www.facebook.com/" uk-icon="icon: facebook" style="color: #3b5998"></a></li>
+          <li><a href="https://twitter.com/home" uk-icon="icon: twitter" style="color: #1da1f2"></a></li>
+          <li><a href="https://www.youtube.com/" uk-icon="icon: youtube" style="color: #ff0000"></a></li>
+          <li><a href="https://www.linkedin.com/" uk-icon="icon: linkedin" style="color: #0077b5"></a></li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- END SIDEMENU -->
+  <div class="uk-position-top-right uk-position-z-index uk-padding-small">
+    <a onclick="goBack()" uk-close></a>
+  </div>
+
+  <div class="uk-height-1-1 tas-section-padding-v-s uk-panel uk-flex uk-flex-wrap uk-flex-middle uk-flex-center"
+    uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
+
+    <div class="tas-auth-1">
+
+      <a href="index.html">
+        <img class="tas-logo" src="images/logo.png">
+      </a>
+
+      <h5 class="uk-heading-line"><span>Reset Password</span></h5>
+
+      <form class="uk-form" action="index.html/forgot" id="submit-form" method="post">
+
+        <div class="uk-margin">
+          <div class="uk-width-1-1 uk-inline">
+            <input class="uk-input uk-border-pill" placeholder="Email" name="user_email" type="email" required="">
+          </div>
+        </div>
+
+
+
+        <button class="g-recaptcha uk-button uk-button uk-width-1-1 uk-border-pill" type="submit" data-sitekey="6LcfX-IZAAAAALwAGzJHgojoqXBu8ngyE7bMZYTs
+" data-callback="onRecaptchaSuccess">Enter</button>
+
+        <div class="uk-margin uk-width-1-1 uk-link">
+          <a class="uk-link" href="signin.html">Back to Sign In</a>
+        </div>
+
+      </form>
+
+    </div>
+
+  </div>
+  <!-- Script  -->
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/uikit.js"></script>
+  <script src="assets/js/uikit-icons.js"></script>
+  <script async src="../../../www.google.com/recaptcha/api.js"></script>
+  <script type="text/javascript">
+    /* Global js vars */
+    var SITEURL = "index.html";
+    var IMAGES_FOLDER = "images/index.html";
+  </script>
+  <script src="assets/js/cookieconsent.min.js"></script>
+  <script src="assets/js/nice-select.min.js"></script>
+  <script src="assets/js/datatables.min.js"></script>
+  <script src="assets/js/datatables.uikit.min.js"></script>
+  <script src="assets/js/rating.min.js"></script>
+  <script src="assets/js/jquery.upload.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#efefef",
+          "text": "#404040"
+        },
+        "button": {
+          "background": "#8ec760",
+          "text": "#ffffff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": 'index.html/terms-and-conditions'
+      }
+    });
+  </script>
+</body>
+
+
+</html>
