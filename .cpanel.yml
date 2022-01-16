@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/trialrr/public_html/affilink/
+    - export REPOPATH=/home/trialrr/affilink/
+    - rsync -aP --exclude '.env' ${REPOPATH}/ ${DEPLOYPATH}
